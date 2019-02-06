@@ -88,6 +88,8 @@ function makePoem(initialWord, numWords, numLines){
   }
   console.log("Elon Musk's musings mixed with Erica Jong's erotic poetry");
   console.log(poem);
+
+  return poem;
 }
 
 makePoem("doomed expedition", 4, 5);
